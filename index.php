@@ -10,6 +10,14 @@ echo "<br><br>";
 
 // admin
 $admin = new admin('Doe');
-echo $admin->generateCode();
+//echo $admin->generateCode();
+//
+//$admin->display();
+//
+//echo $admin->getNom();
+//
 
-$admin->display();
+$admin2 = new admin('Jane');
+
+echo $admin::getInstancesCount();
+

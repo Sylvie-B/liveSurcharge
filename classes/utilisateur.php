@@ -31,9 +31,10 @@ class utilisateur
     /**
      * @param string $nom
      */
-    public function setNom(string $nom): void
+    public function setNom(string $nom)
     {
         $this->nom = $nom;
+        return $this;
     }
 
     /**
